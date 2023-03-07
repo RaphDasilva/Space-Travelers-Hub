@@ -1,0 +1,47 @@
+.top-logo {
+  width: 50px;
+}
+
+.Logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.2rem 4rem;
+  border-bottom: 1px solid rgb(207, 203, 203);
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(4, 245, 4);
+  font-size: 1rem;
+}
+
+.link:hover {
+  color: green;
+}
+
+.link:focus {
+  text-decoration: underline;
+}
+
+.vl {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1px;
+  margin-top: 0.4em;
+  background: black;
+  height: 1em;
+}
