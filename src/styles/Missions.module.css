@@ -8,14 +8,14 @@
 }
 
 .missionsHeader div {
-  height: 0;
+  height: 2rem;
   text-align: left;
   border: 1px solid rgb(229, 227, 227);
   padding-left: 0.5rem;
 }
 
 .missionsHeader div p {
-  line-height: 2rem;
+  line-height: 0rem;
   font-weight: 700;
   font-family: Arial, Helvetica, sans-serif;
 }
