@@ -1,15 +1,11 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import styles from '../styles/DisplayMission.module.css';
-import { getMission, missionActions } from '../redux/mission/missionSlice';
+import { missionActions } from '../redux/mission/missionSlice';
 
 const DisplayMission = () => {
   const { mission, status } = useSelector((store) => store.mission);
   const dispatch = useDispatch();
-
-  useEffect(() => {
-    dispatch(getMission());
-  }, [dispatch]);
 
   let outPut;
   if (status === 'loading') {
@@ -33,7 +29,7 @@ const DisplayMission = () => {
   return (
     <>
       <div>{outPut}</div>
-      {mission ? (
+      {
         mission.map((item) => (
           <div className={styles.missionItems} key={item.mission_id}>
             <div className={styles.missionHead}>
@@ -61,11 +57,7 @@ const DisplayMission = () => {
             </div>
           </div>
         ))
-      ) : (
-        <div className="loading">
-          <h5>Loading....</h5>
-        </div>
-      )}
+      }
     </>
   );
 };
