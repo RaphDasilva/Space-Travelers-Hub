@@ -1,5 +1,6 @@
 import './styles/App.css';
 import './styles/header.css';
+import './styles/Rockets.css';
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
