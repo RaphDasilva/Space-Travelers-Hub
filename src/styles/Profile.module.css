@@ -1,47 +1,47 @@
 .container {
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 20px 20px 0px 20px;
-    font-size: 15px;
-    font-weight: 800;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 20px 0 20px;
+  font-size: 15px;
+  font-weight: 800;
 }
 
 .body {
-    display: flex;
-    justify-content: space-between;
-    margin: 5px 20px 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 20px 10px 20px;
 }
 
 .rocket {
-    width: 49%;
+  width: 49%;
 }
 
 .rocket div {
-    border: solid 1px #222;
-    padding: 10px 0px 10px 10px;  
+  border: solid 1px #222;
+  padding: 10px 0 10px 10px;
 }
 
 .mission {
-    width: 49%;
+  width: 49%;
 }
 
 .mission div {
-    border: solid 1px #222;
-    padding: 10px 0px 10px 10px;
+  border: solid 1px #222;
+  padding: 10px 0 10px 10px;
 }
 
-.mission div:nth-child(even)  {
-    border-top: none;
+.mission div:nth-child(even) {
+  border-top: none;
 }
 
 .rocketHead {
-    margin-right: 41%;
+  margin-right: 41%;
 }
