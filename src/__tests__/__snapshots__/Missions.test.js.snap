@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Missions component should render correctly 1`] = `
+<div>
+  <div
+    class="missionsContainer"
+  >
+    <div
+      class="missionsHeader"
+    >
+      <div>
+        <p>
+          Mission
+        </p>
+      </div>
+      <div>
+        <p>
+          Description
+        </p>
+      </div>
+      <div>
+        <p>
+          Status
+        </p>
+      </div>
+      <div />
+    </div>
+    <div />
+  </div>
+</div>
+`;
