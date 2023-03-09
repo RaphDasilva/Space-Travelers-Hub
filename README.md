@@ -1,65 +1,172 @@
-# React and Redux
+<a name="readme-top"></a>
 
-If you are not familiar with linters and GitHub Actions, read [root level README](../README.md).
+  <h3><b>README</b></h3>
 
-## Set-up GitHub Actions
+</div>
 
-This GitHub Action is going to run [ESLint](https://eslint.org/) and [Stylelint](https://stylelint.io/) to help you find style issues.
+<!-- TABLE OF CONTENTS -->
 
-[Stylelint](https://stylelint.io/) is a linter for your stylesheets that helps you avoid errors and enforce conventions.
+# 📗 Table of Contents
 
-[ESLint](https://eslint.org/) is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code, with the goal of making code more consistent and avoiding bugs.
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-Please do the following **steps in this order**:
+<!-- PROJECT DESCRIPTION -->
 
-1. In the first commit of your feature branch create a `.github/workflows` folder and add a copy of [`.github/workflows/linters.yml`](.github/workflows/linters.yml) to that folder.
-    - **Remember** to use the file linked above
-    - **Remember** that `.github` folder starts with a dot.
-2. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.**
-    - If you think that change is necessary - open a [Pull Request in this repository](../README.md#contributing) and let your code reviewer know about it.
-3. When you open your first pull request you should see the result of the GitHub Actions:
+# 📖 [Space Travelers Hub] <a name="about-project"></a>
 
-![gh actions checks](../assets/images/gh-actions-eslint-stylelint-checks.png)
+> - A Web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.
 
-Click on the `Details` link to see the full output and the errors that need to be fixed:
+## 🛠 Built With <a name="built-with"></a>
 
-![gh actions failing checks](../assets/images/gh-actions-html-css-failing-checks.png)
+- Redux
+- React
+- JavaScript
+- CSS
 
-## Set-up linters in your local env
 
-### ESLint
+### Key Features <a name="key-features"></a>
 
-1. Run 
-    ```
-    npm install --save-dev eslint@7.x eslint-config-airbnb@18.x eslint-plugin-import@2.x eslint-plugin-jsx-a11y@6.x eslint-plugin-react@7.x eslint-plugin-react-hooks@4.x @babel/eslint-parser@7.x @babel/core@7.x  @babel/plugin-syntax-jsx@7.x  @babel/preset-react@7.x @babel/preset-react@7.x
-    ```
-    *not sure how to use npm? Read [this](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).*
-2. Copy [.eslintrc.json](./.eslintrc.json) and [.babelrc](./.babelrc) to the root directory of your project.
-3. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.**
-    - If you think that change is necessary - open a [Pull Request in this repository](../README.md#contributing) and let your code reviewer know about it.
-4. Run `npx eslint "**/*.{js,jsx}"` on the root of your directory of your project.
-5. Fix linter errors.
-6. **IMPORTANT NOTE**: feel free to research [auto-correct options for Eslint](https://eslint.org/docs/latest/user-guide/command-line-interface#fixing-problems) if you get a flood of errors but keep in mind that correcting style errors manually will help you to make a habit of writing a clean code!
+- **Display the movies and their count from the movies Api**
+- **Display the likes and their count**
+- **Display the comments and their count**
+- **Add comments and likes to the Involvment API**
+- **Update likes and comments from the API**
+- **Test the code for counters**
 
-### Stylelint
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-1. Run
+<!-- LIVE DEMO -->
 
-   ```
-   npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
-   ```
+## 🚀 Live Demo <a name="live-demo"></a>
 
-   *not sure how to use npm? Read [this](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).*
+- [Live Demo Link](https://space-travelers-hub-tnh2.onrender.com)
 
-2. Copy [.stylelintrc.json](./.stylelintrc.json) to the root directory of your project.
-3. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.**
-   - If you think that change is necessary - open a [Pull Request in this repository](../README.md#contributing) and let your code reviewer know about it.
-4. Run `npx stylelint "**/*.{css,scss}"` on the root of your directory of your project.
-5. Fix linter errors.
-6. **IMPORTANT NOTE**: feel free to research [auto-correct options for Stylelint](https://stylelint.io/user-guide/usage/options) if you get a flood of errors but keep in mind that correcting style errors manually will help you to make a habit of writing a clean code!
 
-## Test/Deployment Actions
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Feel free to add your own deployment actions which can run your tests and deploy to Heroku.
+<!-- GETTING STARTED -->
 
-Make sure that you do not modify the [`.github/workflows/linters.yml`](.github/workflows/linters.yml) but that you create a separe GitHub Action workflow file for that.
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+- Git/Github
+- HTML and CSS knowledge
+- VS code or any other equivalent tool.
+
+<!--
+Example command:
+
+```sh
+ gem install rails
+```
+ -->
+
+### Setup
+
+Clone this repository to your desired folder
+
+
+<!--
+Example commands:
+
+```sh
+  cd my-folder
+  git clone git@https://github.com/RaphDasilva/javascript-group-capstone.git
+```
+--->
+
+### Install
+
+Install this project with:
+
+- to install locally run git clonehttps://github.com/RaphDasilva/javascript-group-capstone/.git
+- open the cloned directory with VSCode
+- Install npm and webserver
+- Run npm install
+- Run npm start to view on your browser
+
+### Usage
+
+- Feel free to use this project
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="author"></a>
+
+> This is a team project.
+> **Dan Matama**
+
+- GitHub: [Daniel](https://www.linkedin.com/in/daniel-matama-mwebesa/)
+- Twitter: [@dan_matamal](https://twitter.com/dan_matama)
+- LinkedIn: [@danielmatama](https://github.com/danielmatama)
+
+**Raphael Okolo**
+
+- GitHub: [@RaphOkolo](https://github.com/RaphDasilva)
+- Twitter: [@RaphOkolo](https://twitter.com/RaphOkolo)
+- LinkedIn: [@RaphOkolo](https://www.linkedin.com/in/RaphOkolo/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🤝 Future Features <a name="future-features"></a>
+- Allow multiple endpoints for viewers and producers
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project feel free to use it and We hope it helps you in your journey.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+We would like to thank our Training body at Microverse for this project and for granting us the knowledge to do it. We would also like to appreciate our code reviewer and coding partners
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
