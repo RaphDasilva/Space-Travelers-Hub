@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test if my_profile renderers correctly 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="header"
+  >
+    <div>
+      My Mission
+    </div>
+    <div
+      className="rocketHead"
+    >
+      My Rocket
+    </div>
+  </div>
+  <div
+    className="body"
+  >
+    <div
+      className="mission"
+    >
+      <div>
+        No Reserved Mission
+      </div>
+    </div>
+    <div
+      className="rocket"
+    >
+      <div>
+        No Reserved Rockets
+      </div>
+    </div>
+  </div>
+</div>
+`;
