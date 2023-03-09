@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DisplayMission component should render correctly 1`] = `
+<div>
+  <div />
+  <div
+    class="missionItems"
+  >
+    <div
+      class="missionHead"
+    >
+      <h3>
+        Mission 1
+      </h3>
+    </div>
+    <div
+      class="missionInfo"
+    >
+      <p>
+        Mission 1 description
+      </p>
+    </div>
+    <div
+      class="buttons"
+    >
+      <button
+        class="memberBtn"
+        type="button"
+      >
+        Not A Member
+      </button>
+    </div>
+    <div
+      class="buttons"
+    >
+      <button
+        class="joinMissionBtn"
+        data-id="mission-1"
+        type="button"
+      >
+        Join Mission
+      </button>
+    </div>
+  </div>
+  <div
+    class="missionItems"
+  >
+    <div
+      class="missionHead"
+    >
+      <h3>
+        Mission 2
+      </h3>
+    </div>
+    <div
+      class="missionInfo"
+    >
+      <p>
+        Mission 2 description
+      </p>
+    </div>
+    <div
+      class="buttons"
+    >
+      <button
+        class="active"
+        type="button"
+      >
+        Active Member
+      </button>
+    </div>
+    <div
+      class="buttons"
+    >
+      <button
+        class="leavingMission"
+        data-id="mission-2"
+        type="button"
+      >
+        Leave Mission
+      </button>
+    </div>
+  </div>
+</div>
+`;
