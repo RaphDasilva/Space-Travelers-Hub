@@ -43,12 +43,12 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Display the movies and their count from the movies Api**
-- **Display the likes and their count**
-- **Display the comments and their count**
-- **Add comments and likes to the Involvment API**
-- **Update likes and comments from the API**
-- **Test the code for counters**
+- **Single Page Application**
+- **Display missions and Rocket**
+- **You can join and leave Mission**
+- **You can Reserve and Cancel Recerved Rocket**
+- **Display Recerved and Joind Mission on my profile page**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
