@@ -19,7 +19,7 @@ const Profile = () => {
       <div className={style.body}>
 
         <div className={style.mission}>
-          { display.length === 0 && <div>No Reserved Rockets</div>}
+          { display.length === 0 && <div>No Reserved Mission</div>}
           {
             display.map((item) => <div key={item.mission_id}>{item.mission_name}</div>)
           }
